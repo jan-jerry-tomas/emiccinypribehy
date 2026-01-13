@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: jan-jerry-tomas/emiccinypribehy
+  branch: master
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "kapitoly"
+    label: "Kapitoly"
+    folder: "content/kapitoly"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Název", name: "title", widget: "string" }
+      - { label: "Série", name: "serie", widget: "string" }
+      - { label: "Číslo kapitoly", name: "kapitola", widget: "number" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Text", name: "body", widget: "markdown" }
