@@ -2,6 +2,7 @@ backend:
   name: github
   repo: jan-jerry-tomas/emiccinypribehy
   branch: master
+  site_domain: emiccinypribehy.pages.dev
   base-url: https://emiccinypribehy.pages.dev
   auth_endpoint: https://emiccinypribehy.pages.dev/api/auth
 
