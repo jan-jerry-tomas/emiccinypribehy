@@ -2,7 +2,7 @@ backend:
   name: github
   repo: jan-jerry-tomas/emiccinypribehy
   branch: master
-  base-url: https://emiccinypribehy.pages.dev
+  base_url: https://emiccinypribehy.pages.dev
   auth_endpoint: api/auth
 
 media_folder: "static/img"
