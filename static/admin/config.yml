@@ -3,7 +3,7 @@ backend:
   repo: jan-jerry-tomas/emiccinypribehy
   branch: master
   base-url: https://emiccinypribehy.pages.dev
-  auth_endpoint: /api/auth
+  auth_endpoint: https://emiccinypribehy.pages.dev/api/auth
 
 media_folder: "static/img"
 public_folder: "/img"
